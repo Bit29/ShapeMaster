@@ -139,6 +139,14 @@ public class UIManager : MonoBehaviour
     #endregion
     private void Start()
     {
+        topA.text = "11";
+        topB.text = "11";
+        bottomA.text = "11";
+        bottomB.text = "11";
+        rX.text = "1";
+        rY.text = "1";
+        heightT.text = "11";
+        heightB.text = "0";
         centerX.text = "0";
         centerY.text = "0";
         centerZ.text = "0";

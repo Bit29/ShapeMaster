@@ -25,10 +25,10 @@ public class ViewPoint : MonoBehaviour
     
     void Start()
     {
-        main.rect = new Rect(0, 0, 0.5f, 1);
-        V.rect = new Rect(0.5f, 0, 0.25f, 0.5f);
-        H.rect = new Rect(0.5f, 0, 0.25f, 0.5f);
-        Block.rect = new Rect(0.5f, 0.5f, 0.25f, 0.5f);
+        main.rect = new Rect(0, 0, 0.495f, 1f);
+        V.rect = new Rect(0.5f, 0, 0.245f, 0.49f);
+        H.rect = new Rect(0.5f, 0, 0.245f, 0.49f);
+        Block.rect = new Rect(0.5f, 0.5f, 0.245f, 0.5f);
         UI.rect = new Rect(0.75f, 0, 0.25f, 1);
         V.enabled = true;
         H.enabled = false;

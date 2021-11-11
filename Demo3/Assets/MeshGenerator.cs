@@ -32,11 +32,11 @@ public class MeshGenerator : MonoBehaviour
     public string name;
     public float topA, topB, bottomA, bottomB,
         rX, rY,
-        heightT, heightB,
-        rotateAngle = 0,
-        rotate,
-        rotateValue = 0,
-        centerX, centerY, centerZ;
+        heightT, heightB;
+    public float rotateAngle = 0;
+    public float rotate;
+    public float rotateValues = 0;
+    public float centerX, centerY, centerZ;
     public Material[] material;
     private int block_num=0;
     
@@ -176,7 +176,7 @@ public class MeshGenerator : MonoBehaviour
                 position[count] = new Vector3(NewX, NewY, NewZ);
                 count++;
             }
-            rotateAngle += rotateValue;
+            rotateAngle += rotateValues;
         }
         rotateAngle = 0;
     }
