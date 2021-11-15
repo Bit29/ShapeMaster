@@ -41,7 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/S2.unity:
+    Assets/NS1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -77,55 +77,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11576}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 11748}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 11998}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 12056}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12062}
+      Script: {instanceID: 12064}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 12158}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12210}
     - Class: 114
-      Script: {instanceID: 12380}
+      Script: {instanceID: 12382}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12674}
+      Script: {instanceID: 12676}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 12680}
     - Class: 114
-      Script: {instanceID: 12812}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12986}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 13530}
+      Script: {instanceID: 13532}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 114
-      Script: {instanceID: 13846}
+      Script: {instanceID: 13848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -233,6 +233,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Scrollviewcontroller
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -625,5 +631,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/S2.unity
-  playerPath: C:/Users/mh.lee/Desktop/tt/Demo3.exe
+  - Assets/NS1.unity
+  playerPath: C:/Users/mh.lee/Desktop/TTTT/Demo3.exe

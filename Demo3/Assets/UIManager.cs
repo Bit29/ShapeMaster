@@ -126,6 +126,7 @@ public class UIManager : MonoBehaviour
         {
             listItem.GetComponentInChildren<TMPro.TMP_Text>().text = BlockData.instance.MBlockRank[i];
             var clone = Instantiate(listItem, listMenu.content);
+            
         }
         return;
     }
